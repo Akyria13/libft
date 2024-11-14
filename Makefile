@@ -1,7 +1,7 @@
 NAME = libft.a
 HEAD = libft.h
 
-OBJ_DIR = obj/
+#OBJ_DIR = obj/
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
@@ -40,24 +40,27 @@ OBJS_BONUS = $(SRC_BONUS:%.c=$(OBJ_DIR)%.o)
 
 all : $(NAME)
 
-$(NAME) : $(OBJS) Makefile
+$(NAME) : $(OBJS)
 	$(AR) $@ $(OBJS)
 
-$(OBJ_DIR)%.o: %.c $(HEAD) | $(OBJ_DIR)
-	$(CC) $(CFLAGS) -c $< -o $@
+#$(OBJ_DIR)%.o: %.c $(HEAD) | $(OBJ_DIR)
+#	$(CC) $(CFLAGS) -c $< -o $@
+%.o: %.c
+	$(CC) -I. -o $@ -c $? $(CFLAGS)
 
-$(OBJ_DIR) :
-	mkdir -p $(OBJ_DIR)
+#$(OBJ_DIR) :
+#	mkdir -p $(OBJ_DIR)
 
 bonus: $(OBJS) $(OBJS_BONUS)
 	@$(AR) $(NAME) $^
-	
+
 clean :
-	$(RM) -r $(OBJ_DIR)
+	$(RM) -r $(OBJ)
+#$(OBJ_DIR)
 
 fclean : clean
 	$(RM) $(NAME)
-		
+
 re : fclean all
 
 .PHONY : all clean fclean re

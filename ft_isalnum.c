@@ -6,8 +6,15 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:01:45 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/12 14:01:52 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/14 16:49:41 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+int	ft_isalnum(int c)
+{
+	if (ft_isalpha(c) || ft_isdigit(c))
+		return (1);
+	return (0);
+}
