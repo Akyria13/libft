@@ -55,7 +55,7 @@ bonus: $(OBJS) $(OBJS_BONUS)
 	@$(AR) $(NAME) $^
 
 clean :
-	$(RM) -r $(OBJ)
+	$(RM) -f $(OBJS)
 #$(OBJ_DIR)
 
 fclean : clean
