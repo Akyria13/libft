@@ -6,11 +6,20 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 13:59:49 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/14 16:55:42 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/18 13:47:35 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * @brief Converts the initial portion of the string pointed to
+ * by str to an integer.
+ *
+ * @param str The string to be converted
+ * @return The converted integer value.
+ * Returns 0 if no valid conversion could be performed.
+ */
 
 int	ft_atoi(const char *str)
 {

@@ -6,11 +6,18 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:01 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/14 16:53:21 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/18 13:31:58 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * @brief Checks if the character c is a decimal digit.
+ *
+ * @param c The character to test.
+ * @return 1 if c is a digit (0-9), 0 otherwise.
+ */
 
 int	ft_isdigit(int c)
 {

@@ -6,19 +6,29 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:28 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/15 17:51:35 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/18 16:28:23 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Fills the first n bytes of memory area pointed to by s with the
+ * constant byte c.
+ *
+ * @param s Pointer to the memory area to be filled.
+ * @param c The byte to fill the memory with (converted to an unsigned char).
+ * @param n Number of bytes to be filled.
+ * @return A pointer to the memory area s.
+ */
+
 void	*ft_memset(void *s, int c, size_t n)
 {
-	unsigned char	*ptr;
 	size_t			i;
+	unsigned char	*ptr;
 
-	ptr = (unsigned char *)s;
 	i = 0;
+	ptr = (unsigned char *)s;
 	while (i < n)
 	{
 		ptr[i] = (unsigned char)c;

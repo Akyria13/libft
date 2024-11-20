@@ -6,11 +6,18 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:01:53 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/14 16:53:17 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/18 13:32:06 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * @brief Checks if the character c is an alphabetic letter.
+ *
+ * @param c The character to test.
+ * @return 1 if c is a letter, 0 otherwise.
+ */
 
 int	ft_isalpha(int c)
 {

@@ -3,7 +3,7 @@ HEAD = libft.h
 
 #OBJ_DIR = obj/
 
-CC = gcc
+CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
 AR = ar rcs
