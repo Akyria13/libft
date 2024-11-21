@@ -16,7 +16,7 @@
  * @brief Converts the initial portion of the string pointed to
  * by str to an integer.
  *
- * @param str The string to be converted
+ * @param str The string to be converted.
  * @return The converted integer value.
  * Returns 0 if no valid conversion could be performed.
  */
