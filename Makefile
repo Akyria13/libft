@@ -4,7 +4,7 @@ HEAD = libft.h
 #OBJ_DIR = obj/
 
 CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -fsanitize=address
 
 AR = ar rcs
 RM = rm -f
@@ -32,7 +32,9 @@ SRC = \
 					ft_strnstr.c \
 					ft_strrchr.c \
 					ft_tolower.c \
-					ft_toupper.c
+					ft_toupper.c \
+					ft_substr.c \
+					ft_strjoin.c
 SRC_BONUS =  # All .c bonus
 
 OBJS = $(SRC:%.c=$(OBJ_DIR)%.o)

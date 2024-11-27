@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:01:33 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/18 19:11:13 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/22 19:45:51 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,17 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
+
+/* int	main(void)
+{
+	char	str1[] = "Test";
+	char	str2[] = "Test";
+
+	printf("Before with ft_bzero : %s\n", str1);
+	ft_bzero(str1, 4);
+	printf("After : %s\n", str1);
+	printf("Before with bzero : %s\n", str2);
+	bzero(str2, 4);
+	printf("After : %s\n", str2);
+	return (0);
+} */

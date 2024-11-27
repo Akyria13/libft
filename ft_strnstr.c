@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jolanwagner13 <jolanwagner13@student.42    +#+  +:+       +#+        */
+/*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:03:04 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/21 18:58:26 by jolanwagner      ###   ########.fr       */
+/*   Updated: 2024/11/23 17:11:26 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,25 +21,35 @@
  * or NULL if not found.
  */
 
-char	*strnstr(const char *big, const char *little, size_t len)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t	i;
+	size_t	j;
 
 	i = 0;
-	if (!little)
+	j = 0;
+	if (!little[j])
 		return ((char *)big);
-	while (big[i])
+	while (big[i] && len > i)
 	{
-		j = 0;
-		if (little[j] && to_find[j] == str[i + j])
+		while (little[j] == big[i + j] && len > (i + j))
 		{
 			j++;
-			if (!to_find[j])
+			if (!little[j])
 			{
-				return (&big[i]);
+				return ((char *)big + i);
 			}
 		}
 		i++;
+		j = 0;
 	}
 	return (0);
 }
+
+/* int	main(void)
+{
+	const char	big1[] = "Hello my dear world!";
+	const char	little1[] = "my";
+
+	printf("%s", ft_strnstr(big1, little1, 1));
+} */

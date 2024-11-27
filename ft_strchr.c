@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:31 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/18 19:12:05 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/23 16:39:44 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,26 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s);
 	return (NULL);
 }
+
+/* int	main(void)
+{
+	const char	str[] = "Hello, World!";
+	char		c;
+	char		*result;
+
+	c = 'o';
+	result = ft_strchr(str, c);
+	if (result)
+		printf("The character '%c' was found at position : %ld\n", c, result
+			- str);
+	else
+		printf("The character '%c' was not found.\n", c);
+	c = 'z';
+	result = ft_strchr(str, c);
+	if (result)
+		printf("The character '%c' was found at position : %ld\n", c, result
+			- str);
+	else
+		printf("The character '%c' was not found.\n", c);
+	return (0);
+} */

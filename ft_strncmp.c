@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:58 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/20 20:22:44 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/23 19:10:56 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,3 +39,11 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
+
+/* int	main(void)
+{
+	char	str1[] = "Hello, ";
+	char	str2[] = "World!";
+
+	printf("%d", ft_strncmp(str1, str2, 3));
+} */

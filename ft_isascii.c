@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:01:57 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/18 13:32:04 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/22 19:50:59 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /**
  * @brief Checks if the character c is in the ASCII table.
  *
- * @param c The value to test (converted to unsigned char).
+ * @param c The value to test.
  * @return 1 if c is in the ASCII range (0-127), 0 otherwise.
  */
 
@@ -25,3 +25,12 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
+
+/* int	main(void)
+{
+	printf("Test 'a': %d\n", ft_isascii('a'));
+	printf("Test 'Z': %d\n", ft_isascii('Z'));
+	printf("Test '5': %d\n", ft_isascii('5'));
+	printf("Test '@': %d\n", ft_isascii('@'));
+	return (0);
+} */

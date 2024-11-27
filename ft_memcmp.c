@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:17 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/20 20:47:08 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/23 19:12:16 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,3 +42,15 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+
+/* int	main(void)
+{
+	char	str1[] = "Hello, World!";
+	char	str2[] = "Hello, World!";
+	char	str3[] = "Hello";
+	char	str4[] = "World";
+
+	printf("Test 1 : %d (waiting 0)\n", ft_memcmp(str1, str2, 5));
+	printf("Test 2 : %d (waiting negative int)\n", ft_memcmp(str3, str4, 5));
+	return (0);
+} */
