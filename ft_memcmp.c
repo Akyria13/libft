@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:17 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/23 19:12:16 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/29 15:31:22 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
  * @param ptr1 Pointer to the first memory block.
  * @param ptr2 Pointer to the second memory block.
  * @param n Number of bytes to compare;
- * returns an integer indicating the result of the comparison.
+ * @return an integer indicating the result of the comparison.
  */
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)

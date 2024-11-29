@@ -1,38 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/12 14:01:53 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/28 15:13:06 by jowagner         ###   ########.fr       */
+/*   Created: 2024/11/29 17:26:49 by jowagner          #+#    #+#             */
+/*   Updated: 2024/11/29 18:25:18 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief Checks if the character c is an alphabetic letter.
+ * @brief Writes a string to a given file descriptor.
  *
- * @param c The character to test.
- * @return 1 if c is a letter, 0 otherwise.
+ * @param s The string to be written.
+ * @param fd The file descriptor to write to (1 for standard output,
+ * 2 for standard error, etc.).
  */
 
-int	ft_isalpha(int c)
+void	ft_putstr_fd(char *s, int fd)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-		return (1);
-	return (0);
+	while (*s)
+		write(fd, s++, 1);
 }
-
-/* int	main(int ac, char **av)
-{
-	if (ac != 2)
-	{
-		printf("Usage : %s <Only one character !>\n", av[0]);
-		return (1);
-	}
-	printf("%d\n", ft_isalpha(av[1][0]));
-	return (0);
-} */

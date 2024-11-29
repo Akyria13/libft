@@ -6,18 +6,18 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:01:33 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/22 19:45:51 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/11/29 15:32:23 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief Erases the data in the n bytes of memory starting at the
- location pointed to by s.
+ * @brief Sets a block of memory to zero.
  *
- * @param s Pointer to the memory area to be erased.
- * @param n Number of bytes to be erased.
+ * @param s The memory area to be set to zero.
+ * @param n The number of bytes to set to zero.
+ * @return Nothing. The memory is modified directly.
  */
 
 void	ft_bzero(void *s, size_t n)
