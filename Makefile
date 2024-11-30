@@ -44,7 +44,11 @@ SRC = \
 					ft_putstr_fd.c \
 					ft_putendl_fd.c \
 					ft_putnbr_fd.c
-SRC_BONUS =  # All .c bonus
+SRC_BONUS = \
+					ft_lstnew.c \
+					ft_lstadd_front.c \
+					ft_lstsize.c \
+					ft_lstlast.c
 
 OBJS = $(SRC:%.c=$(OBJ_DIR)%.o)
 OBJS_BONUS = $(SRC_BONUS:%.c=$(OBJ_DIR)%.o)
