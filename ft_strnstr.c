@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:03:04 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/23 17:11:26 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/04 17:36:04 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 		{
 			j++;
 			if (!little[j])
-			{
 				return ((char *)big + i);
-			}
 		}
 		i++;
 		j = 0;

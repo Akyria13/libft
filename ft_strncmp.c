@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:58 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/23 19:10:56 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/04 17:36:19 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	{
 		if ((unsigned char)s1[i] != (unsigned char)s2[i]
 			|| (unsigned char)s1[i] == '\0' || (unsigned char)s2[i] == '\0')
-		{
 			return ((unsigned char)s1[i] - (unsigned char)s2[i]);
-		}
 		i++;
 	}
 	return (0);
