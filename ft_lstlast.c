@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 21:13:08 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/30 21:26:10 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:10:26 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,26 +30,3 @@ t_list	*ft_lstlast(t_list *lst)
 		tmp = tmp->next;
 	return (tmp);
 }
-
-/* int	main(void)
-{
-	t_list	*head;
-	t_list	*second;
-	t_list	*third;
-	t_list	*last;
-
-	head = ft_lstnew("Node1");
-	second = ft_lstnew("Node2");
-	third = ft_lstnew("Node3");
-	head->next = second;
-	second->next = third;
-	last = ft_lstlast(head);
-	if (last)
-		printf("Last node : %s\n", (char *)last->content);
-	else
-		printf("The list is empty.\n");
-	free(third);
-	free(second);
-	free(head);
-	return (0);
-} */

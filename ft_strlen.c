@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:53 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/26 19:11:06 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:36:13 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,3 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-
-/* int	main(void)
-{
-	char	str1[] = "Hello, World!";
-
-	printf("Len of str : %ld", ft_strlen(str1));
-} */

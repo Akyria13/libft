@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 17:51:35 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/04 19:31:33 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:10:49 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,42 +49,3 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_lst);
 }
-
-/* void	ft_free_content(void *content)
-{
-	free(content);
-}
-
-void	*ft_toupper_void(void *content)
-{
-	char	*str;
-	int		i;
-
-	str = (char *)content;
-	i = 0;
-	while (str[i])
-	{
-		str[i] = ft_toupper(str[i]);
-		i++;
-	}
-	return (str);
-}
-
-int	main(void)
-{
-	t_list	*lst;
-	t_list	*new_lst;
-	t_list	*tmp;
-
-	lst = ft_lstnew(ft_strdup("Hello,"));
-	ft_lstadd_back(&lst, ft_lstnew(ft_strdup("World")));
-	ft_lstadd_back(&lst, ft_lstnew(ft_strdup("libft")));
-	new_lst = ft_lstmap(lst, ft_toupper_void, ft_free_content);
-	tmp = new_lst;
-	while (tmp)
-	{
-		printf("%s\n", (char *)tmp->content);
-		tmp = tmp->next;
-	}
-	return (0);
-} */

@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:03:16 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/23 17:20:30 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:39:58 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,3 @@ int	ft_toupper(int c)
 		return (c - 32);
 	return (c);
 }
-
-/* int	main(void)
-{
-	printf("Test 'a': %c\n", ft_toupper('a'));
-	printf("Test 'Z': %c\n", ft_toupper('Z'));
-	printf("Test '5': %c\n", ft_toupper('5'));
-	printf("Test '@': %c\n", ft_toupper('@'));
-	return (0);
-} */

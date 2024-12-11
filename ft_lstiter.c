@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 19:26:41 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/04 17:50:53 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:10:07 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,34 +24,11 @@
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
+	if (!f)
+		return ;
 	while (lst)
 	{
 		f(lst->content);
 		lst = lst->next;
 	}
 }
-
-/* void	ft_print_content(void *content)
-{
-	printf("Contenu : %s\n", (char *)content);
-}
-
-int	main(void)
-{
-	t_list	*head;
-	t_list	*node1;
-	t_list	*node2;
-	t_list	*node3;
-
-	node1 = ft_lstnew("First.");
-	node2 = ft_lstnew("Second.");
-	node3 = ft_lstnew("Third.");
-	head = node1;
-	node1->next = node2;
-	node2->next = node3;
-	ft_lstiter(head, ft_print_content);
-	free(node1);
-	free(node2);
-	free(node3);
-	return (0);
-} */

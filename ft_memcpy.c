@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:21 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/26 19:32:57 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:12:55 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 
 	dest_data = (unsigned char *)dest;
 	src_data = (unsigned const char *)src;
-	if (!dest_data && !src_data)
+	if (!src_data && !dest_data)
 		return (NULL);
 	i = 0;
 	while (i < n)
@@ -39,14 +39,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-/* int	main(void)
-{
-	const char	src[] = "Hello, World!";
-	char		dest[13];
-
-	ft_memcpy(dest, src, ft_strlen(src) + 1);
-	printf("Source : %s\n", src);
-	printf("Destination : %s\n", dest);
-	return (0);
-} */

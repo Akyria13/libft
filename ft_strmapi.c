@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/29 14:51:08 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/29 15:27:41 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:43:18 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	size_t			len;
 	unsigned int	i;
 
-	if (!s || !f)
-		return (NULL);
-	len = 0;
-	while (s[len])
-		len++;
+	len = ft_strlen(s);
 	str = malloc(sizeof(char) * (len + 1));
 	if (!str)
 		return (NULL);
@@ -46,22 +42,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-
-/* char	ft_my_function(unsigned int i, char c)
-{
-	if (i % 2 == 0)
-		return ((c >= 'a' && c <= 'z') ? c - 32 : c);
-	return (c);
-}
-
-int	main(void)
-{
-	char	*s;
-	char	*result;
-
-	s = "Hello, World!";
-	result = ft_strmapi(s, ft_my_function);
-	printf("%s\n", result);
-	free(result);
-	return (0);
-} */

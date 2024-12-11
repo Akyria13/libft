@@ -6,14 +6,13 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 20:24:53 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/04 18:29:01 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:41:19 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-// #include <strings.h>
 # include <stdint.h>
 # include <stdio.h>
 # include <stdlib.h>

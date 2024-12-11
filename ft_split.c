@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/28 17:52:55 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/28 20:47:20 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:13:58 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,26 +102,3 @@ char	**ft_split(const char *s, char c)
 	result[i] = NULL;
 	return (result);
 }
-
-/* int main(void)
-	{
-		const char *s = "Hello my dear world!";
-		char c;
-		char **result;
-		int i;
-
-		c = ' ';
-		result = ft_split(s, c);
-		if (result)
-		{
-			i = 0;
-			while (result[i])
-			{
-				printf("Word %d: %s\n", i + 1, result[i]);
-				free(result[i]); // Libérer chaque mot
-				i++;
-			}
-			free(result); // Libérer le tableau
-		}
-		return (0);
-} */

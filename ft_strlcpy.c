@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:42 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/23 17:44:35 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:35:52 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,40 +25,15 @@
 size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
 	unsigned int	i;
-	unsigned int	size_src;
 
-	i = 0;
 	if (size == 0)
 		return (ft_strlen(src));
+	i = 0;
 	while ((i < (size - 1)) && src[i])
 	{
 		dest[i] = src[i];
 		i++;
 	}
-	size_src = ft_strlen(src);
 	dest[i] = '\0';
-	return (size_src);
+	return (ft_strlen(src));
 }
-
-/* int	main(void)
-{
-	char	src[] = "Hello, World!";
-	char	dest1[50];
-	size_t	copied1;
-	char	dest2[10];
-	size_t	copied2;
-
-	copied1 = ft_strlcpy(dest1, src, sizeof(dest1));
-	printf("Test 1 :\n");
-	printf("Source : %s\n", src);
-	printf("Dest : %s\n", dest1);
-	printf("Len src : %ld\n", copied1);
-	printf("Len dest : %ld\n\n", ft_strlen(dest1));
-	copied2 = ft_strlcpy(dest2, src, sizeof(dest2));
-	printf("Test 2 :\n");
-	printf("Source : %s\n", src);
-	printf("Dest : %s\n", dest2);
-	printf("Len src  : %ld\n", copied2);
-	printf("Len dest : %ld\n\n", ft_strlen(dest2));
-	return (0);
-} */

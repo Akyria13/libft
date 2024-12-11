@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/29 15:28:13 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/29 15:45:08 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:15:53 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,6 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
 	unsigned int	i;
 
-	if (!s || !f)
-		return ;
 	i = 0;
 	while (s[i])
 	{
@@ -35,18 +33,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-
-/* void	ft_modify_char(unsigned int index, char *c)
-{
-	if (index % 2 == 0)
-		*c -= 32;
-}
-
-int	main(void)
-{
-	char str[] = "hello";
-
-	ft_striteri(str, ft_modify_char);
-	printf("%s\n", str);
-	return (0);
-} */

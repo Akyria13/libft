@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 13:59:49 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/18 13:47:35 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:01:08 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,14 +45,3 @@ int	ft_atoi(const char *str)
 	}
 	return (sign * result);
 }
-
-/* int	main(int ac, char **av)
-{
-	if (ac != 2)
-	{
-		printf("Usage : %s <Only ASCII !>\n", av[0]);
-		return (0);
-	}
-	printf("%d\n", ft_atoi(av[1]));
-	printf("%d", atoi(av[1]));
-} */

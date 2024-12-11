@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/28 15:20:12 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/28 17:57:38 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:39:02 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,6 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	end;
 	char	*trim;
 
-	if (!s1 || !set)
-		return (NULL);
 	start = 0;
 	while (s1[start] && ft_strchr(set, s1[start]))
 		start++;
@@ -43,26 +41,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(trim, &s1[start], end - start + 1);
 	return (trim);
 }
-
-/* int	main(void)
-{
-	char	*s1;
-	char	*set;
-	char	*result;
-
-	s1 = "   Hello, World!   ";
-	set = " ";
-	printf("Original string: '%s'\n", s1);
-	printf("Set of characters to trim: '%s'\n", set);
-	result = ft_strtrim(s1, set);
-	if (result)
-	{
-		printf("Trimmed string: '%s'\n", result);
-		free(result);
-	}
-	else
-	{
-		printf("Error: ft_strtrim returned NULL.\n");
-	}
-	return (0);
-} */

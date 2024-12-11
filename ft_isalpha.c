@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:01:53 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/28 15:13:06 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:03:30 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,14 +25,3 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-
-/* int	main(int ac, char **av)
-{
-	if (ac != 2)
-	{
-		printf("Usage : %s <Only one character !>\n", av[0]);
-		return (1);
-	}
-	printf("%d\n", ft_isalpha(av[1][0]));
-	return (0);
-} */

@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 18:48:10 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/03 19:26:20 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:09:24 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,21 +31,3 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	del(lst->content);
 	free(lst);
 }
-
-/* void	ft_del_content(void *content)
-{
-	free(content);
-}
-
-int	main(void)
-{
-	char	*data;
-	t_list	*node;
-
-	data = malloc(10 * sizeof(char));
-	if (!data)
-		return (1);
-	node = ft_lstnew(data);
-	ft_lstdelone(node, ft_del_content);
-	return (0);
-} */

@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 20:27:59 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/30 20:59:03 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:06:22 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,18 +29,3 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	new->next = *lst;
 	*lst = new;
 }
-
-/* int	main(void)
-{
-	t_list	*head;
-	t_list	*new;
-
-	head = ft_lstnew("Node1");
-	new = ft_lstnew("NewNode");
-	ft_lstadd_front(&head, new);
-	printf("First node : %s\n", (char *)head->content);
-	printf("Second node : %s\n", (char *)head->next->content);
-	free(head->next);
-	free(head);
-	return (0);
-} */

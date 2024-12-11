@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:34 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/26 19:10:21 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 17:26:25 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,25 +35,3 @@ char	*ft_strdup(const char *s)
 	copy[s_len] = '\0';
 	return (copy);
 }
-
-/* int	main(void)
-{
-	char	*original;
-	char	*duplicate;
-
-	original = "Hello, World!";
-	duplicate = ft_strdup(original);
-	if (duplicate == NULL)
-	{
-		printf("Memory allocation failed.\n");
-		return (1);
-	}
-	printf("Original : %s\n", original);
-	printf("Duplicate : %s\n", duplicate);
-	if (strcmp(original, duplicate) == 0)
-		printf("The strings are identical.\n");
-	else
-		printf("The strings are not identical.\n");
-	free(duplicate);
-	return (0);
-} */

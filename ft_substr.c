@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 16:59:06 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/28 15:16:46 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:39:25 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	char	*substr;
 	size_t	i;
 
-	i = 0;
-	if (s == NULL)
-		return (NULL);
 	if (start >= ft_strlen(s))
 		return (ft_strdup(""));
 	if (len > ft_strlen(s) - start)
@@ -38,6 +35,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr = (char *)malloc(sizeof(char) * (len + 1));
 	if (substr == NULL)
 		return (NULL);
+	i = 0;
 	while (i < len && s[start + i])
 	{
 		substr[i] = s[start + i];
@@ -46,21 +44,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
-
-/* int	main(void)
-{
-	const char	*str = "Hello, World!";
-	char		*sub;
-
-	sub = ft_substr(str, 7, 5);
-	if (sub != NULL)
-	{
-		printf("Substring : %s\n", sub);
-		free(sub);
-	}
-	else
-	{
-		printf("Allocation failed or invalid input.\n");
-	}
-	return (0);
-} */

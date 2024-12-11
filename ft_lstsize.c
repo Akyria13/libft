@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 20:59:25 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/03 16:44:19 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:11:52 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,21 +33,3 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (i);
 }
-
-/* int	main(void)
-{
-	t_list	*head;
-	t_list	*second;
-	t_list	*third;
-
-	head = ft_lstnew("Node1");
-	second = ft_lstnew("Node2");
-	third = ft_lstnew("Node3");
-	head->next = second;
-	second->next = third;
-	printf("Lenght of list : %d\n", ft_lstsize(head));
-	free(third);
-	free(second);
-	free(head);
-	return (0);
-} */

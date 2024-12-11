@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:28 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/23 16:38:21 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:13:32 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-
-/* int	main(void)
-{
-	char	str1[13] = "Hello, World!";
-
-	printf("Before ft_memset : %s\n", str1);
-	ft_memset(str1, 'X', 5);
-	printf("After ft_memset : %s\n", str1);
-	return (0);
-} */

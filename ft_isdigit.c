@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:01 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/22 19:49:51 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:04:57 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,14 +25,3 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
-
-/* int	main(int ac, char **av)
-{
-	if (ac != 2)
-	{
-		printf("Usage : %s <Only digit(s) !>\n", av[0]);
-		return (1);
-	}
-	printf("%d\n", ft_isdigit(av[1][0]));
-	return (0);
-} */

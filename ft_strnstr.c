@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:03:04 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/04 17:36:04 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:38:24 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,11 +43,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (0);
 }
-
-/* int	main(void)
-{
-	const char	big1[] = "Hello my dear world!";
-	const char	little1[] = "my";
-
-	printf("%s", ft_strnstr(big1, little1, 1));
-} */

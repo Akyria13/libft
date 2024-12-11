@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:03:07 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/23 17:16:46 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:38:41 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,10 +36,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s);
 	return (last_occur);
 }
-
-/* int	main(void)
-{
-	char	str1[] = "Hello, World!";
-
-	printf("Last occurence of int c : %s", ft_strrchr(str1, 'o'));
-} */

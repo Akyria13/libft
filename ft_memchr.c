@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:11 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/22 20:09:53 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:12:12 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,16 +37,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-/* int	main(void)
-{
-	char	str[] = "Test";
-	char	*result;
-
-	result = ft_memchr(str, 'l', ft_strlen(str));
-	if (result)
-		printf("Character found : %c\n", *result);
-	else
-		printf("No character found.\n");
-	return (0);
-} */

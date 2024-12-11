@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:01:39 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/26 16:31:35 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:02:19 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,30 +29,8 @@ void	*ft_calloc(size_t nmemb, size_t size)
 
 	total_size = nmemb * size;
 	ptr = malloc(total_size);
-	if (ptr == NULL)
+	if (!ptr)
 		return (NULL);
-	ft_memset(ptr, 0, total_size);
+	ft_bzero(ptr, total_size);
 	return (ptr);
 }
-
-/* int	main(void)
-{
-	int	*arr;
-	int	i;
-
-	arr = ft_calloc(10, sizeof(int));
-	i = 0;
-	while (i < 10)
-	{
-		if (arr[i])
-		{
-			printf("Test failed at index %d\n", i);
-			free(arr);
-			return (1);
-		}
-		i++;
-	}
-	printf("All elements are zero-initialized.\n");
-	free(arr);
-	return (0);
-} */

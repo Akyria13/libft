@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 17:03:19 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/30 20:26:58 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/11 15:11:08 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,20 +30,3 @@ t_list	*ft_lstnew(void *content)
 	new->next = NULL;
 	return (new);
 }
-
-/* int	main(void)
-{
-	t_list	*node;
-	char	*content;
-
-	content = "Hello, World!";
-	node = ft_lstnew(content);
-	if (!node)
-	{
-		printf("Allocation fail.\n");
-		return (1);
-	}
-	printf("Content of var content : %s", (char *)node->content);
-	free(node);
-	return (0);
-} */
