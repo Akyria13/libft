@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/29 15:46:52 by jowagner          #+#    #+#             */
-/*   Updated: 2024/11/29 17:19:09 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:37 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
  * @param fd The file descriptor to write to (1 for standard output,
  * 2 for standard error, etc.).
  */
-
 void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);

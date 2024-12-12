@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/28 15:20:12 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:39:02 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:50:30 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
  * @return A pointer to the newly allocated trimmed string,
  * or NULL if the allocation fails or if any parameter is NULL.
  */
-
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	start;

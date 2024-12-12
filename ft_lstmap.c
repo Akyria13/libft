@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 17:51:35 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:10:49 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:19 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@
  * the content of a node if needed.
  * @return The new list. NULL if the allocation fails.
  */
-
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_lst;

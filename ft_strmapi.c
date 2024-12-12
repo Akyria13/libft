@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/29 14:51:08 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:43:18 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:50:15 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
  * @return A newly allocated string resulting from applying the function `f`
  * to each character of `s`, or NULL if allocation fails.
  */
-
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	char			*str;

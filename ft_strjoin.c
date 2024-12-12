@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 18:23:41 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:34:31 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:53 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@
  * @return A pointer to the newly allocated string containing
  * the concatenation of s1 and s2, or NULL if the allocation fails.
  */
-
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t	len_s1;

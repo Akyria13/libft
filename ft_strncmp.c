@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:58 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:38:03 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:50:18 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
  * or greater than zero if str1 is found, respectively, to be less than,
  * to match, or be greater than str2.
  */
-
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t				i;

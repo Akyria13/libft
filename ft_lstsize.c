@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 20:59:25 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:11:52 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:23 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
  * @param lst The beginning of the list.
  * @return The length of the list.
  */
-
 int	ft_lstsize(t_list *lst)
 {
 	int		i;

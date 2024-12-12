@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 13:59:49 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:01:08 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:48:21 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@
  * @return The converted integer value.
  * Returns 0 if no valid conversion could be performed.
  */
-
 int	ft_atoi(const char *str)
 {
 	int	i;

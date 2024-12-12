@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:03:04 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:38:24 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:50:22 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@
  * @return Pointer to the first occurrence of needle in haystack,
  * or NULL if not found.
  */
-
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t	i;

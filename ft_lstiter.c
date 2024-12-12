@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 19:26:41 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:10:07 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:48:48 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@
  * the list.
  * @return Nothing.
  */
-
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	if (!f)

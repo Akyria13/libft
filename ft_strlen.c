@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:53 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:36:13 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:50:06 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
  * @param str The string to measure.
  * @return The number of characters in str, excluding the null terminator.
  */
-
 size_t	ft_strlen(const char *str)
 {
 	size_t	i;

@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/28 17:52:55 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:13:58 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:44 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@
  * @return A NULL-terminated array of newly allocated substrings,
  * or NULL if the allocation fails or if the input string is NULL.
  */
-
 static int	ft_count_words(const char *s, char c)
 {
 	int	count;

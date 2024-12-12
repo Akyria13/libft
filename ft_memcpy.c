@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:21 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:12:55 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:30 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@
  * @param n Number of bytes to copy.
  * @return A pointer to dest.
  */
-
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
 	size_t				i;

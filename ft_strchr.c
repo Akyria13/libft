@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:31 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:14:54 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:46 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@
  * @return A pointer to the first occurrence of c in s,
  * or NULL if c is not found.
  */
-
 char	*ft_strchr(const char *s, int c)
 {
 	while (*s)

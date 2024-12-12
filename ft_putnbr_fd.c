@@ -19,7 +19,6 @@
  * @param fd The file descriptor to write to (1 for standard output,
  * 2 for standard error, etc.).
  */
-
 void	ft_putnbr_fd(int n, int fd)
 {
 	int	num;

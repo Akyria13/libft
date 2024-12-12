@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/04 18:26:42 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:06:48 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:48:43 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
  * the content of the node.
  * @return Nothing.
  */
-
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*tmp;

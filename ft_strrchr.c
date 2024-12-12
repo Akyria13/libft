@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:03:07 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:38:41 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:50:24 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@
  * @return A pointer to the last occurrence of c in s,
  * or NULL if c is not found.
  */
-
 char	*ft_strrchr(const char *s, int c)
 {
 	char	*last_occur;

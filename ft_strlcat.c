@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:38 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:35:13 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:57 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
  * @return The total length of the string it tried to create
  * (initial length of dst plus length of src).
  */
-
 size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
 	size_t	dest_len;

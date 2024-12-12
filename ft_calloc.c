@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:01:39 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:02:19 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:48:24 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@
  * @return A pointer to the allocated memory,
  * or NULL if the allocation fails.
  */
-
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	size_t	total_size;

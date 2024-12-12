@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:03:13 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:39:38 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:50:34 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
  * @return (The lowercase equivalent of c if it's an uppercase letter);
  * otherwise, returns c unchanged.
  */
-
 int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')

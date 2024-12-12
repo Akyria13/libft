@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 17:10:43 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:05:56 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:48:39 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
  * @param new The address of a pointer to the node to be added to the list.
  * @return Nothing.
  */
-
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*tmp;

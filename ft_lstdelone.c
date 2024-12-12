@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 18:48:10 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:09:24 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:48:45 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@
  * the content.
  * @return Nothing.
  */
-
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
 	if (!lst || !del)

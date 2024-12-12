@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 17:03:19 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:11:08 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:21 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
  * @param content The content to create the node with.
  * @return The new node.
  */
-
 t_list	*ft_lstnew(void *content)
 {
 	t_list	*new;

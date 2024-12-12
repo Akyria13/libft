@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:28 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:13:32 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:47:56 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@
  * @param n Number of bytes to be filled.
  * @return A pointer to the memory area s.
  */
-
 void	*ft_memset(void *s, int c, size_t n)
 {
 	size_t			i;

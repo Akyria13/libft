@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:42 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:35:52 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:50:01 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@
  * @param size Size of the destination buffer.
  * @return The total length of the string it tried to create (length of src).
  */
-
 size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
 	unsigned int	i;

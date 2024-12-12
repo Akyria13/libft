@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:11 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:12:12 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:26 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
  * @return A pointer to the first occurrence of c in buffer,
  * or NULL if c is not found.
  */
-
 void	*ft_memchr(const void *s, int c, size_t n)
 {
 	unsigned const char	*ptr;

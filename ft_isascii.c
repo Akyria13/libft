@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:01:57 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:04:39 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:48:30 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
  * @param c The value to test.
  * @return 1 if c is in the ASCII range (0-127), 0 otherwise.
  */
-
 int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)

@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 16:59:06 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:39:25 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:50:32 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
  * @return A pointer to the newly allocated substring,
  * or NULL if the allocation fails or if the starting index is out of bounds.
  */
-
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*substr;

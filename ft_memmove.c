@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:24 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:13:14 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:33 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@
  * @param n Number of bytes to copy.
  * @return A pointer to dest.
  */
-
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	unsigned char		*dest_data;

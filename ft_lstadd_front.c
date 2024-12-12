@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 20:27:59 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:06:22 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:48:41 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@
  * added to the list.
  * @return Nothing.
  */
-
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
 	if (!lst || !new)

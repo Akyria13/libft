@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:17 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:12:35 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/12 19:49:28 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@
  * @param n Number of bytes to compare;
  * @return an integer indicating the result of the comparison.
  */
-
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	unsigned const char	*s1_data;
