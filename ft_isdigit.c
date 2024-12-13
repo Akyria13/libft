@@ -6,11 +6,9 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:01 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/12 19:48:32 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/13 17:33:28 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 /**
  * @brief Checks if the character c is a decimal digit.

@@ -77,10 +77,12 @@ bonus: $(OBJS) $(OBJS_BONUS)
 
 clean :
 	$(RM) -f $(OBJS)
+	@echo "Deleting *.o"
 #$(OBJ_DIR)
 
 fclean : clean
 	$(RM) $(NAME)
+	@echo "Deleting libft.a"
 
 re : fclean all
 
@@ -95,8 +97,8 @@ $(NAME) : $(OBJS)
 
 #$(OBJ_DIR)%.o: %.c $(HEAD) | $(OBJ_DIR)
 #	$(CC) $(CFLAGS) -c $< -o $@
-%.o: %.c
-	$(CC) -I. -o $@ -c $? $(CFLAGS)
+%.o: %.c libft.h Makefile
+	$(CC) $(CFLAGS) -I. -o $@ -c $<
 
 #$(OBJ_DIR) :
 #	mkdir -p $(OBJ_DIR)

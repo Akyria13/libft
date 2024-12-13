@@ -6,11 +6,9 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:03:13 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/12 19:50:34 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/13 17:34:01 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 /**
  * @brief Converts an uppercase letter to lowercase.

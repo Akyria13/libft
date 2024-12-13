@@ -6,12 +6,14 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 20:24:53 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/11 15:41:19 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/13 17:52:21 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+# define INT_MIN1 -2147483648
+# define INT_MINSTR "-2147483648"
 
 # include <stdint.h>
 # include <stdio.h>

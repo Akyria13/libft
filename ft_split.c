@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/28 17:52:55 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/12 19:49:44 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/13 22:56:17 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,8 +69,15 @@ static char	*ft_allocate_word(const char *s, int *index, char c)
 
 static char	**ft_free_result(char **result, int i)
 {
-	while (i--)
-		free(result[i]);
+	int	j;
+
+	j = 0;
+	while (j < i)
+	{
+		if (result[j])
+			free(result[j]);
+		j++;
+	}
 	free(result);
 	return (NULL);
 }
@@ -82,8 +89,6 @@ char	**ft_split(const char *s, char c)
 	int		i;
 	char	**result;
 
-	if (!s)
-		return (NULL);
 	word_count = ft_count_words(s, c);
 	result = malloc(sizeof(char *) * (word_count + 1));
 	if (!result)
