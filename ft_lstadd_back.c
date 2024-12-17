@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/03 17:10:43 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/12 19:48:39 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/17 19:43:12 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,6 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*tmp;
 
-	if (!lst || !new)
-		return ;
 	while (!*lst)
 	{
 		*lst = new;
