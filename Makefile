@@ -64,7 +64,7 @@ OBJS_BONUS = $(SRC_BONUS:%.c=$(OBJ_DIR)%.o)
 #                                                      DIRECTORY                                                       #
 ########################################################################################################################
 
-#OBJ_DIR = obj/
+OBJ_DIR = obj/
 
 ########################################################################################################################
 #                                                      TARGETS                                                         #
@@ -76,9 +76,8 @@ bonus: $(OBJS) $(OBJS_BONUS)
 	@$(AR) $(NAME) $^
 
 clean :
-	$(RM) -f $(OBJS)
-	@echo "Deleting *.o"
-#$(OBJ_DIR)
+	$(RM) -rf $(OBJS) $(OBJ_DIR)
+	@echo "Deleting obj/"
 
 fclean : clean
 	$(RM) $(NAME)
@@ -95,10 +94,11 @@ re : fclean all
 $(NAME) : $(OBJS)
 	$(AR) $@ $(OBJS)
 
-#$(OBJ_DIR)%.o: %.c $(HEAD) | $(OBJ_DIR)
-#	$(CC) $(CFLAGS) -c $< -o $@
-%.o: %.c libft.h Makefile
+$(OBJ_DIR)%.o: %.c $(HEAD) Makefile | $(OBJ_DIR)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+%.o: %.c libft.h
 	$(CC) $(CFLAGS) -I. -o $@ -c $<
 
-#$(OBJ_DIR) :
-#	mkdir -p $(OBJ_DIR)
+$(OBJ_DIR) :
+	mkdir -p $(OBJ_DIR)

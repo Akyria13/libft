@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 20:24:53 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/13 17:52:21 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/18 17:01:22 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # define INT_MINSTR "-2147483648"
 
 # include <stdint.h>
-# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
 
