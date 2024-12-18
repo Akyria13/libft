@@ -6,15 +6,15 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:11 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/12 19:49:26 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/18 22:27:03 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief Locates the first occurrence of the character c
- * in the block of memory pointed to by buffer.
+ * @brief Locates the first occurrence of the character c in the block of
+ * memory pointed to by buffer.
  *
  * @param s Pointer to the memory block to be searched.
  * @param c The character to locate (converted to an unsigned char).

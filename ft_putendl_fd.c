@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/29 18:17:35 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/12 19:49:38 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/18 22:28:21 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,5 @@ void	ft_putendl_fd(char *s, int fd)
 {
 	while (*s)
 		write(fd, s++, 1);
-	write(fd, "\n", 1);
+	ft_putchar_fd('\n', fd);
 }

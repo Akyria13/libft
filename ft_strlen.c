@@ -6,7 +6,7 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 14:02:53 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/12 19:50:06 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/18 22:22:29 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 /**
  * @brief Calculates the length of the string str.
+ *
  * @param str The string to measure.
  * @return The number of characters in str, excluding the null terminator.
  */

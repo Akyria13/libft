@@ -6,19 +6,18 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/28 15:20:12 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/12 19:50:30 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/18 22:36:17 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief Trims the specified characters from the beginning
- * and the end of a given string.
+ * @brief Trims the specified characters from the beginning and the end of a
+ * given string.
  *
  * @param s1 The string to be trimmed.
- * @param set The set of characters to remove from both
- * ends of the string.
+ * @param set The set of characters to remove from both ends of the string.
  * @return A pointer to the newly allocated trimmed string,
  * or NULL if the allocation fails or if any parameter is NULL.
  */

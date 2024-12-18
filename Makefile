@@ -2,14 +2,14 @@
 #                                                      VARIABLES                                                       #
 ########################################################################################################################\
 
-NAME = libft.a
-HEAD = libft.h
+NAME = 				libft.a
+HEAD = 				libft.h
 
-AR = ar rcs
-RM = rm -f
+AR = 				ar rcs
+RM = 				rm -f
 
-CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CC = 				cc
+CFLAGS = 			-Wall -Wextra -Werror
 
 SRC = \
 					ft_atoi.c \
@@ -57,8 +57,8 @@ SRC_BONUS = \
 					ft_lstiter.c \
 					ft_lstmap.c
 
-OBJS = $(SRC:%.c=$(OBJ_DIR)%.o)
-OBJS_BONUS = $(SRC_BONUS:%.c=$(OBJ_DIR)%.o)
+OBJS = 				$(SRC:%.c=$(OBJ_DIR)%.o)
+OBJS_BONUS = 		$(SRC_BONUS:%.c=$(OBJ_DIR)%.o)
 
 ########################################################################################################################
 #                                                      DIRECTORY                                                       #
@@ -67,38 +67,35 @@ OBJS_BONUS = $(SRC_BONUS:%.c=$(OBJ_DIR)%.o)
 OBJ_DIR = obj/
 
 ########################################################################################################################
-#                                                      TARGETS                                                         #
-########################################################################################################################
-
-all : $(NAME)
-
-bonus: $(OBJS) $(OBJS_BONUS)
-	@$(AR) $(NAME) $^
-
-clean :
-	$(RM) -rf $(OBJS) $(OBJ_DIR)
-	@echo "Deleting obj/"
-
-fclean : clean
-	$(RM) $(NAME)
-	@echo "Deleting libft.a"
-
-re : fclean all
-
-.PHONY : all clean fclean re
-
-########################################################################################################################
 #                                                       COMMANDS                                                       #
 ########################################################################################################################
 
-$(NAME) : $(OBJS)
-	$(AR) $@ $(OBJS)
+$(NAME) : 			$(OBJS) Makefile
+					$(AR) $@ $^
 
-$(OBJ_DIR)%.o: %.c $(HEAD) Makefile | $(OBJ_DIR)
-	$(CC) $(CFLAGS) -c $< -o $@
-
-%.o: %.c libft.h
-	$(CC) $(CFLAGS) -I. -o $@ -c $<
+$(OBJ_DIR)%.o:		%.c $(HEAD) | $(OBJ_DIR)
+					$(CC) $(CFLAGS) -I. -o $@ -c $<
 
 $(OBJ_DIR) :
-	mkdir -p $(OBJ_DIR)
+					mkdir -p $(OBJ_DIR)
+
+########################################################################################################################
+#                                                      TARGETS                                                         #
+########################################################################################################################
+
+all : 				$(NAME)
+
+bonus: 				$(OBJS) $(OBJS_BONUS)
+					@$(AR) $(NAME) $^
+
+clean :
+					@$(RM) -rf $(OBJ_DIR)
+					@echo "Deleting 'obj'"
+
+fclean : 			clean
+					@$(RM) $(NAME)
+					@echo "Deleting libft.a"
+
+re : 				fclean all
+
+.PHONY : 			all bonus clean fclean re

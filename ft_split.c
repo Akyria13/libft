@@ -6,15 +6,15 @@
 /*   By: jowagner <jowagner@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/28 17:52:55 by jowagner          #+#    #+#             */
-/*   Updated: 2024/12/13 22:56:17 by jowagner         ###   ########.fr       */
+/*   Updated: 2024/12/18 22:32:50 by jowagner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief Splits a string into an array of substrings using
- * a specified delimiter.
+ * @brief Splits a string into an array of substrings using a
+ * specified delimiter.
  *
  * @param s The string to split.
  * @param c The delimiter character used to split the string.

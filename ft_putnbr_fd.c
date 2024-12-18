@@ -25,12 +25,12 @@ void	ft_putnbr_fd(int n, int fd)
 
 	if (n == INT_MIN1)
 	{
-		write(fd, INT_MINSTR, 11);
+		ft_putstr_fd(INT_MINSTR, fd);
 		return ;
 	}
 	if (n < 0)
 	{
-		write(fd, "-", 1);
+		ft_putchar_fd('-', fd);
 		n = -n;
 	}
 	if (n > 9)
