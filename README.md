@@ -17,12 +17,12 @@ Libft implements the following categories of functions :
 
 ### 1. **Part 1 : Standard C Functions**
 Functions from `<string.h>`, `<ctype.h>`, and `<stdlib.h>` :
-- **Memory manipulation** :
-  - `ft_memset`, `ft_bzero`, `ft_memcpy`, `ft_memmove`, `ft_memchr`, `ft_memcmp`.
 - **String operations** :
   - `ft_strlen`, `ft_strlcpy`, `ft_strlcat`, `ft_strchr`, `ft_strrchr`, `ft_strncmp`, `ft_strdup`, `ft_substr`, `ft_strjoin`, `ft_strtrim`, `ft_split`.
 - **Character checks/conversions** :
   - `ft_isalpha`, `ft_isdigit`, `ft_isalnum`, `ft_isascii`, `ft_isprint`, `ft_toupper`, `ft_tolower`.
+- **Memory manipulation** :
+  - `ft_memset`, `ft_bzero`, `ft_memcpy`, `ft_memmove`, `ft_memchr`, `ft_memcmp`.
 - **Number conversion** :
   - `ft_atoi`.
 
