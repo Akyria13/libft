@@ -1,6 +1,3 @@
-
----
-
 # Libft
 
 ## 📚 Description
